@@ -1,0 +1,51 @@
+# macOS
+.DS_Store
+
+# Python cache/build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Logs and experiment outputs
+*.log
+runs/
+logs/
+wandb/
+outputs/
+checkpoints/
+
+# Model weights and large generated artifacts
+*.ckpt
+*.pth
+*.pt
+*.tar
+*.onnx
+*.npz
+
+# Project-specific generated/model folders.
+# Keep the lightweight placeholder Readme.txt files tracked.
+Code/IFS-Light/sample_scripts/model_logs/ours/*
+!Code/IFS-Light/sample_scripts/model_logs/ours/Readme.txt
+Code/IFS-Light/preprocess_scripts/Relighting_preprocessing_tools/skintone/Model/*
+Code/IFS-Light/preprocess_scripts/Relighting_preprocessing_tools/Arcface/pretrained/*
+Code/IFS-Light/preprocess_scripts/Relighting_preprocessing_tools/DECA/data/*
+Code/IFS-Light/preprocess_scripts/Relighting_preprocessing_tools/diffae/checkpoints/*
+Code/IFS-Light/preprocess_scripts/Relighting_preprocessing_tools/diffae/checkpoints/**/*.pkl
+Code/IFS-Light/preprocess_scripts/Relighting_preprocessing_tools/face-parsing.PyTorch/res/cp/*
+Code/IFS-Light/preprocess_scripts/Relighting_preprocessing_tools/FFHQ_align/temp/*

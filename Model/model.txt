@@ -1,0 +1,19 @@
+------------------------------------------------------------------------------------------------
+"Models":
+
+Our trained models:
+1. skin tone scale: "./skintone/model.pth", please put it in the folder "Code/IFS-Light/preprocess_scripts/Relighting_preprocessing_tools/skintone/Model/"
+It can be downloaded from: "https://drive.google.com/drive/folders/1IQwxlIA5fLUK8Ely_7sbrcyxfDQ2x6ub?usp=sharing"
+
+2. IFS-Light: "./IFS-Light/ImgCond_ema_0.9999_080000" & "./IFS-Light/ImgEncoder_ema_0.9999_080000", please put the folder in the "Code/IFS-Light/sample_scripts/model_logs/ours" 
+They can be downloaded from: "https://drive.google.com/drive/folders/1pNHo3C6xHpw5trsAX9ON_7gKHpGYyOE-?usp=share_link" 
+
+------------------------------------------------------------------------------------------------
+
+We also need models based on existing methods for pre-processing, please download from their github.
+1. Arcface (github name: Arcface): please put the model in the "Code/IFS-Light/preprocess_scripts/Relighting_preprocessing_tools/Arcface/pretrained/BEST_checkpoint_r18.tar"
+2. DECA (github name: DECA): please put the model in the "Code/IFS-Light/preprocess_scripts/Relighting_preprocessing_tools/DECA/data"
+3. DiffAE (github name: Diff-AE): please put the model in the "Code/IFS-Light/preprocess_scripts/Relighting_preprocessing_tools/diffae/checkpoints/ffhq256_autoenc/last.ckpt & latent.pkl"
+4. face_parsing (github name: Face parsing): please put the model in the "Code/IFS-Light/preprocess_scripts/Relighting_preprocessing_tools/face-parsing.PyTorch/res/cp/79999_iter.pth"
+5. FFHQ-align (github name: difareli_code/FFHQ_align): please put the model in the "Code/IFS-Light/preprocess_scripts/Relighting_preprocessing_tools/FFHQ_align/temp/shape_predictor_68_face_landmarks.dat & shape_predictor_68_face_landmarks.dat.bz2"
+6. Hou et al.(2022) (github name: GeomConsistentFR): please put the "model_epoch106.pth" in the "/Code/IFS-Light/sample_scripts/model_logs/ours"
